@@ -32,6 +32,8 @@ li {
   cursor: pointer;
   text-transform: uppercase;
   font-weight: 500;
+  background-color: aqua;
+  width: 100%;
 }
 
 /** general elements **/
@@ -87,7 +89,7 @@ nav > ul > li {
 
 .hero-section input[type="submit"] {
   border: 0;
-  background-color: #f1c40f;
+  background-color: lightblue;
   height: 30px;
   margin: 10px 0 0 0;
   cursor: pointer;
@@ -109,7 +111,7 @@ nav > ul > li {
 }
 #features > .elements > .icon {
   margin-right: 40px;
-  color: darkorange;
+  color: lightblue;
 }
 #features > .elements > .description {
   padding: 10px;
@@ -145,7 +147,7 @@ nav > ul > li {
 }
 #pricing > .product > button {
   border: 0px;
-  background-color: yellow;
+  background-color: lightblue;
   width: 50%;
   height: 30px;
   cursor: pointer;
@@ -173,8 +175,12 @@ footer > span {
   color: #555;
 }
 
-/* @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  #nav-bar {
-    position: fixed;
-  }
-}  */
+@media (max-width: 720px){
+    #features > .elements > .icon {
+        display: none;
+    }
+    .btn{
+        text-transform: none;
+    }
+
+}
