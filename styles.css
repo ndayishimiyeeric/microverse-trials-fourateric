@@ -23,6 +23,63 @@ li {
 }
 
 /** general elements **/
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#features{
+    margin-top: 40px;
+}
+#features > .elements{
+    display: flex;
+}
+#features > .elements > .icon {
+    margin-right: 40px;
+    color: darkorange;
+}
+#features > .elements > .description{
+    padding: 10px;
+}
+#video-section {
+    margin-top: 40px;
+}
+#video-section > iframe {
+    /* max-width: 1000px; */
+    width: 100%;
+}
+#pricing{
+    margin-top: 60px;
+    display: flex;
+}
+#pricing  > .product {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+#pricing > .product > #product-name{
+    padding: 10px 0;
+    background-color: #ddd;
+    width : 100%;
+    text-align: center;
+}
+#pricing > .product > ol {
+    margin: 20px;
+}
+#pricing > .product > button {
+    border: 0px;
+    background-color: yellow;
+    width: 50%;
+    height: 30px;
+}
 
 /*
 header {
